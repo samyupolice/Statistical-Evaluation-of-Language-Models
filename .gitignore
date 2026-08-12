@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Hugging Face / Transformer cache
+.cache/
+huggingface_cache/
+.huggingface/
+
+# Model files
+*.bin
+*.pt
+*.pth
+*.safetensors
+
+# Large generated files
+*.zip
+*.tar
+*.tar.gz
